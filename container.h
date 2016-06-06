@@ -42,6 +42,9 @@ namespace lotr {
 
 		// Returns a string representation of this object
 		virtual string to_string() const;
+
+		virtual string save_string() { return "{Container:{name: '" + name + "', owner: " + owner + ", volume_cap: " + std::to_string(volume_cap) + ", maxWeight: " +
+		std::to_string(maxWeight) + ", content: " + content + "}}"; }
 	protected:
 		int volume_cap;
 		float maxWeight;

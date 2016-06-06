@@ -26,6 +26,8 @@ namespace lotr {
 		virtual double weight() const { return weights; }
 		// Returns true if thing could be used as weapon
 		virtual bool use_weapon() { return true; }
+		virtual string save_string() { return "{Weapon:{name: '" + name + "', owner: " + owner + ", weights: " + std::to_string(weights) + 
+												", minDamage: " + std::to_string(minDamage) + ", maxDamage: " + std::to_string(maxDamage) + "}}"; }
 	protected:
 		float weights;
 		int minDamage;

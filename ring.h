@@ -19,6 +19,7 @@ namespace lotr {
 		virtual bool needs_backpack() const { return false; }
 		// Returns the weight of this object
 		virtual double weight() const { return 10000000; };
+		virtual string save_string() { return "{Ring:{name: '" + name + "', owner: " + owner + ", colour: '" + colour + "'}}"; }
 	protected:
 		string colour;
 	};

@@ -16,6 +16,7 @@ namespace lotr {
 	public:
 		Backpack(string const & name, int const volume_, float const maxWeight_) : Bag(name, volume_, maxWeight_) {}
 	};
+	virtual string save_string() { return "{Backpack:{name: '" + name + "', owner: " + owner + "}}"; }
 }
 
 #endif

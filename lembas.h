@@ -17,6 +17,7 @@ namespace lotr {
 	public:
 		Lembas(string const & name, int const hp) : Food(name, hp) {}
 		virtual string to_string() const;
+		virtual string save_string() { return "{Lembas:{name: '" + name + "', owner: " + owner + "}}"; }
 	};
 }
 
