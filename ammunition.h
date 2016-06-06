@@ -23,6 +23,8 @@ namespace lotr {
 		virtual string to_string() const;
 		// Returns true if object is arrow and needs to be placed quiver
 		virtual int needs_quiver() const { return true; }
+		virtual string save_string() { return "{Ammunition:{name: '" + name + "', owner: " + owner + ", amount: " + std::to_string(amount) + ", damage_: " + std::to_string(damage_) + "}}"; }
+
 	protected:
 		int amount;
 		int damage_;

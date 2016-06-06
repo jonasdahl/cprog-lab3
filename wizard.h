@@ -25,6 +25,10 @@ namespace lotr {
 		virtual int get_mana() const { return mana; };
 		virtual bool decrease_mana() { if (mana <= 0) return false; mana--; return true; }
 		virtual string description() const override;
+		virtual string save_string() { return "{Wizard:{character_name: '" + character_name + "', player_name: '" + player_name + "', commandMap: " + commandMap + 
+										", environment: " + env + ", npc: " + (npc?"true":"false") + ", max_health: " + to_string(max_health) + ", health: " + to_string(health) + ", backpack: " + backpack +
+										", quiver: " + quiver + ", items: " + items + ", time_to_revive: " + to_string(time_to_revive) + ", game_over: " + ", game: " + game + "}}"; }
+
 		// Returns max damage for player's weapons
 	private:
 		int mana;

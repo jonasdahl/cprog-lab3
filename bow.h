@@ -21,6 +21,7 @@ namespace lotr {
 		virtual int damage() const;
 		// Returns true if thing could be used as weapon
 		virtual bool use_weapon();
+		virtual string save_string() { return "{Bow:{name: '" + name + "', owner: " + owner + ", accuracy: " + std::to_string(accuracy) + "}}"; }
 	protected:
 		float accuracy;
 	};

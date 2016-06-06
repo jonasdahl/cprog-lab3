@@ -22,6 +22,7 @@ namespace lotr {
 		// Returns the weight of this object
 		virtual double weight() const { return 0.250; }
 		virtual string to_string() const;
+		virtual string save_string() { return "{Food:{name: '" + name + "', owner: " + owner + ", hp: " + std::to_string(hp) + "}}"; }	
 	protected:
 		int hp;
 	};

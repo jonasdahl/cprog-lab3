@@ -15,6 +15,8 @@ namespace lotr {
 	public:
 		Mine(string const & n, string const & desc_) : Indoors(n), desc(desc_) {}
 		virtual string description() const override { return desc; }
+		virtual string save_string() { return "{Mine:{name: '" + name + "', objects: " + objects + ", characters: " + characters + ", neighbours: " + neighbours +
+		 										", character_map: " + character_map + ", desc: '" + desc + "'}}"; }
 	private:
 		string desc;
 	};

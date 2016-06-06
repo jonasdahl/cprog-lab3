@@ -116,7 +116,9 @@ namespace lotr {
 
 		// Compares two characters and returns true if character names are same
 		bool operator==(Character const & c) const;
-		virtual string save_string() { return "{character:{name:" + get_character_name() + "}}"; }
+		virtual string save_string() { return "{Character:{character_name: '" + character_name + "', player_name: '" + player_name + "', commandMap: " + commandMap + 
+										", environment: " + env + ", npc: " + (npc?"true":"false") + ", max_health: " + to_string(max_health) + ", health: " + to_string(health) + ", backpack: " + backpack +
+										", quiver: " + quiver + ", items: " + items + ", time_to_revive: " + to_string(time_to_revive) + ", game_over: " + ", game: " + game + "}}"; }
 
 		// I/O stuff
 		string read_line();

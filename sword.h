@@ -19,6 +19,7 @@ namespace lotr {
 			Weapon(name, weight, minDamage, maxDamage), length(length_) {}
 
 		virtual string to_string() const;
+		virtual string save_string() { return "{Sword:{name: '" + name + "', owner: " + owner + ", length: " + std::to_string(length) + "}}"; }
 	protected:
 		float length;
 	};

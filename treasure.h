@@ -14,6 +14,7 @@ namespace lotr {
 	class Treasure : public Object {
 	public:
 		Treasure(string const & name) : Object(name) {}
+		virtual string save_string() { return "{Treasure:{name: '" + name + "', owner: " + owner + "}}"; }
 	};
 }
 

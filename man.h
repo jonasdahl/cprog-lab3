@@ -18,6 +18,10 @@ namespace lotr {
 		virtual string type() const = 0;
 		virtual bool commandBake();
 		virtual bool commandForge();
+		virtual string save_string() { return "{Man:{character_name: '" + character_name + "', player_name: '" + player_name + "', commandMap: " + commandMap + 
+										", environment: " + env + ", npc: " + (npc?"true":"false") + ", max_health: " + to_string(max_health) + ", health: " + to_string(health) + ", backpack: " + backpack +
+										", quiver: " + quiver + ", items: " + items + ", time_to_revive: " + to_string(time_to_revive) + ", game_over: " + ", game: " + game + "}}"; }
+
 	};
 }
 

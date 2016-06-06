@@ -49,7 +49,7 @@ namespace lotr {
 		// Returns true if thing could be used as weapon
 		virtual bool use_weapon() { return false; }
 
-		virtual string save_string() { return "{object:{name:" + get_name() + "}}"; }
+		virtual string save_string() { return "{Object:{name: '" + name + "', owner: " + owner + "}}"; }
 
 		friend std::ostream & operator<<(std::ostream & o, const Object *);
 	protected:

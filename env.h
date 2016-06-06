@@ -45,7 +45,8 @@ namespace lotr {
 		bool has_character_object(Character * const character) const;
 		map<string, Environment *> get_directions() const;
 		string get_name() const { return name; }
-		virtual string save_string() { return "{environment:{name:" + get_name() + "}}"; }
+		virtual string save_string() { return "{Environment:{name: '" + name + "', objects: " + objects + ", characters: " + characters + ", neighbours: " + neighbours +
+		 										", character_map: " + character_map + "}}"; }
 
 	protected:
 		bool ring_destr;
