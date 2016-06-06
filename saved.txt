@@ -1,0 +1,67 @@
+{object:{name:Boromirs svärd}}
+{object:{name:Gandalfs svärd}}
+{object:{name:Èowyns svärd}}
+{object:{name:Èowyns ryggsäck}}
+{object:{name:Èowyns lembas}}
+{object:{name:Ryggsäck}}
+{object:{name:Legolas svärd}}
+{object:{name:Ryggsäck}}
+{object:{name:Ryggsäck}}
+{object:{name:Ryggsäck}}
+{object:{name:Ryggsäck}}
+{object:{name:Denethors svärd}}
+{object:{name:Ryggsäck}}
+{object:{name:Faramirs svärd}}
+{object:{name:Ryggsäck}}
+{object:{name:Orksvärd}}
+{object:{name:Ryggsäck}}
+{object:{name:Orksvärd}}
+{object:{name:Pilbåge}}
+{object:{name:Härskarringen}}
+{object:{name:Pilkoger}}
+{object:{name:Pilar}}
+{object:{name:Pilar}}
+{object:{name:Pilar}}
+{object:{name:Anduril}}
+{object:{name:Glamdring}}
+{object:{name:Sting}}
+{object:{name:Svärd}}
+{object:{name:Liten dolk}}
+{object:{name:Gandalfs stav}}
+{object:{name:Halvstor Lembas}}
+{object:{name:Liten Lembas}}
+{object:{name:Stor Lembas}}
+{object:{name:Väldigt stor Lembas}}
+{object:{name:Halvstor Lembas}}
+{object:{name:Liten Lembas}}
+{object:{name:Stor Lembas}}
+{object:{name:Väldigt stor Lembas}}
+{object:{name:Saftig lembas}}
+{object:{name:Ryggsäck}}
+{object:{name:Ryggsäck}}
+{object:{name:Ryggsäck}}
+{object:{name:Ryggsäck}}
+{object:{name:Ryggsäck}}
+{object:{name:Ryggsäck}}
+{object:{name:l1}}
+{object:{name:l2}}
+{object:{name:l3}}
+{character:{name:Frodo}}
+{character:{name:Gollum}}
+{character:{name:Boromir}}
+{character:{name:Gandalf}}
+{character:{name:Éowyn}}
+{character:{name:Legolas}}
+{character:{name:Faramir}}
+{character:{name:Denethor}}
+{character:{name:Galadriel}}
+{character:{name:Vätte}}
+{character:{name:Ork}}
+{environment:{name:Moria}}
+{environment:{name:Vattnadahl}}
+{environment:{name:Lothlórien}}
+{environment:{name:Edoras}}
+{environment:{name:Övergivet hus}}
+{environment:{name:Minas Tirith}}
+{environment:{name:Mordor}}
+{environment:{name:Domedagsklyftan}}
